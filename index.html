@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oficina Cooee - Turista</title>
+    <meta name="description" content="Oficina Cooee #2.0" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/rooms.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <div class="menubar">
+      <nav class="nav">
+        <button onclick="voltar()" class="btnnav">
+          <i class="fas fa-sign-in-alt volt"></i>
+        </button>
+      </nav>
+    </div>
+
+    <center>
+      <div class="meio">
+        <h4><i class="fas fa-user-shield verde"></i>Missão Turista</h4>
+
+        <div class="separator">
+          <button class="btn2" onclick="turista()" id="turista1">
+            Turista 1
+          </button>
+          <button class="btn2" onclick="turista2()" id="turista2">
+            Turista 2
+          </button>
+          <button class="btn2" onclick="turista3()" id="turista3">
+            Turista 3
+          </button>
+
+          <button class="btn2" onclick="ativar()">Ativar</button>
+        </div>
+
+        <p class="r">
+          Oficina Cooee &copy;
+          <script>
+            now = new Date();
+            document.write(now.getFullYear());
+          </script>
+          Todos direitos reservados
+        </p>
+      </div>
+    </center>
+
+    <script src="js/click.js"></script>
+    <!-- <script src="js/click2.js"></script> -->
+  </body>
+</html>
